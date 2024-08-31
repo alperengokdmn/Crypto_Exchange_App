@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../bloc/coin/coin_bloc.dart';
-
 class CoinListBuilder extends StatefulWidget {
   final ScrollController scrollController;
   const CoinListBuilder({

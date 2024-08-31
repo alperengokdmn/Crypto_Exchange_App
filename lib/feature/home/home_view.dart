@@ -34,7 +34,7 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home'),
+        title: const Text('Kripto'),
         actions: [
           IconButton(
               onPressed: () {

@@ -1,4 +1,4 @@
 class AppConstants {
-  AppConstants._();
-  static const appTitle = 'CryptoCurrency';
+  AppConstants._();    // burda kurucu fonksiyon ve private tanımladık miras alınamaması için.
+  static const appTitle = 'Yatırım Uygulaması';
 }

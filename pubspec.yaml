@@ -1,7 +1,6 @@
 name: cryptocurrency
 description: CryptoCurrency app
 publish_to: "none"
-
 version: 1.0.0+1
 
 environment:
@@ -10,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.2
   stream_transform: ^2.1.0
   bloc_concurrency: ^0.2.1
@@ -19,12 +17,19 @@ dependencies:
   animated_flip_counter: ^0.2.5
   http: ^0.13.5
   kartal: ^2.8.0
+  xml: ^5.0.1
+  flag: ^6.0.0
+  lottie: ^3.0.0
+  google_fonts: ^4.0.4
+  iconly: ^1.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
+

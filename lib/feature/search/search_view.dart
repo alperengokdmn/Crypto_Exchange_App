@@ -5,7 +5,6 @@ import 'package:cryptocurrency/product/service/coin_service.dart';
 import 'package:cryptocurrency/product/widgets/coin_list/coin_list_tile/coin_list_tile.dart';
 import 'package:flutter/material.dart';
 
-import '../../product/widgets/search_bar/search_bar.dart';
 
 class SearchView extends StatefulWidget {
   const SearchView({Key? key}) : super(key: key);
@@ -36,11 +35,16 @@ class _SearchViewState extends State<SearchView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: SearchBar(
-          searchController: searchController,
+        title: TextField(
+          controller: searchController,
           onChanged: onChanged,
+          decoration: InputDecoration(
+            hintText: 'Search...',
+            prefixIcon: Icon(Icons.search),
+          ),
         ),
       ),
+
       body: searchResults.isEmpty
           ? const Center(
               child: Text('Please type the coin you are looking for...'),
