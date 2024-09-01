@@ -22,25 +22,11 @@
 
 <table>
   <tr align="center">
-    <td colspan="4">Preview</td>
-</tr>
-  <tr align="center">
-    <td colspan="4"><img src="screenshots/video.gif" width="250"></td>
-  </tr>
-  <tr align="center">
-    <td colspan="4">Home Screen / Search Screen</td>
-  </tr>
-  <tr align="center">
-    <td colspan="2"><img src="screenshots/home.png" width="250"></td>
-    <td colspan="2"><img src="screenshots/search.png" width="250"></td>
-  </tr>
-  <tr align="center">
-    <td colspan="4">Detail Screen</td>
-  </tr>
-  <tr align="center">
-    <td><img src="screenshots/1d.png" width="250"></td>
-    <td><img src="screenshots/7d.png" width="250"></td>
-    <td><img src="screenshots/3m.png" width="250"></td>
-    <td><img src="screenshots/1y.png" width="250"></td>
+    <td><img src="screenshots/1.png" width="250"></td>
+    <td><img src="screenshots/2.png" width="250"></td>
+    <td><img src="screenshots/3.png" width="250"></td>
+    <td><img src="screenshots/4.png" width="250"></td>
+    <td><img src="screenshots/5.png" width="250"></td>
+
   </tr>
  </table>
